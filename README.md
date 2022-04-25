@@ -1,11 +1,12 @@
 This is the course repo for CS 594 Modern Reinforcement Learning
 
-We're doing Infinite Armed Bandits here.
+We're doing Infinite Armed Bandits here. [Slides here](https://akych.com/modern-rl/slides.pdf) 
 
 Environments:
 1. Static Uniform Distribution
-2. Increasingly better
-3. Peak in the middle
+2. Increasingly Better Environemnt
+3. Progressively Worse Environment
+
 
 Agents:
 1. Random Agent
@@ -19,3 +20,4 @@ Agents:
 
 7. Surplus Curiosity UCB Agent
 8. Surplus Curiosity TS Agent
+
