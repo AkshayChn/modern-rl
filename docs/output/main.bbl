@@ -1,0 +1,22 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Blum \bgroup et al.\egroup }2020]{kannan}
+Avrim Blum, John Hopcroft, and Ravindran Kannan.
+\newblock 2020.
+\newblock {\em Foundations of Data Science}.
+\newblock Cambridge University Press, Cambridge.
+
+\bibitem[\protect\citename{Parikh}2010]{langeq}
+Prashant Parikh.
+\newblock 2010.
+\newblock {\em Language and Equilibrium}.
+\newblock MIT Press.
+
+\bibitem[\protect\citename{Parikh}2019]{cc}
+Prashant Parikh.
+\newblock 2019.
+\newblock {\em Communication and content}.
+\newblock Number~4 in Topics at the Grammar-Discourse Interface. Language
+  Science Press, Berlin.
+
+\end{thebibliography}

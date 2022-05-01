@@ -1,0 +1,40 @@
+% Uses the ACL 2015 format
+
+\documentclass[11pt]{article}
+
+\usepackage{acl2015}
+\usepackage{times}
+\usepackage{url}
+\usepackage{latexsym}
+
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+\usepackage{algorithm2e}
+\RestyleAlgo{ruled}
+
+\newtheorem{definition}{Definition}
+
+\title{Exploration and Fairness in Infinite Armed Bandit Problems}
+
+\author{Akshay Channesh \and Venkateshwar Ragavan \\
+  University of Illinois Chicago\\
+  {\tt achann4,vragv2@uic.edu}}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+% all content goes into these TeX files
+\input{1-introduction}
+\input{2-related-work}
+\input{3-proposed-method}
+\input{4-experiments-and-discussions}
+\input{5-conclusion}
+
+% include your own bib file like this:
+\bibliographystyle{acl}
+\bibliography{main-bib}
+
+\end{document}
