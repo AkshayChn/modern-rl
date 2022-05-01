@@ -3,14 +3,14 @@
 \subsection{The Agents}
 
 \begin{enumerate}
-    \item Random Agent
-    \item Always New Arm Agent
-    \item Naive UCB Agent
-    \item Naive Thompson Sampling Agent
-    \item Fair UCB Agent
-    \item Fair TS Agent
-    \item Surplus Curiosity UCB Agent
-    \item Surplus Curiosity TS Agent
+    \item Random Agent: This agent picks an unseen arm half the times and a random seen arm otherwise.
+    \item Always New Arm Agent: This agent always picks an unseen arm.
+    \item Naive UCB Agent: This agent picks a new unseen arm with $p=1\%$ and every other time it picks among the known arms using UCB.
+    \item Naive Thompson Sampling Agent: This agent picks a new unseen arm with $p=1\%$ and every other time it picks among the known arms using Thompson Sampling.
+    \item Fair UCB Agent: This agent picks a new unseen arm with $p=1\%$ and every other time it picks among the known arms using UCB while also ensuring $\alpha$-Fairness among known arms.
+    \item Fair TS Agent: This agent picks a new unseen arm with $p=1\%$ and every other time it picks among the known arms using Thompson Sampling while also ensuring $\alpha$-Fairness among known arms.
+    \item Surplus Curiosity UCB Agent: This agent picks a new unseen arm with a probability based on the surplus, and every other time it picks among known arms using UCB.
+    \item Surplus Curiosity TS Agent: This agent picks a new unseen arm with a probability based on the surplus, and every other time it picks among known arms using Thompson Sampling.
 \end{enumerate}
 
 \subsection{Environments}

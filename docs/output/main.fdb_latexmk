@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex output/main"] 1651438467 "output/main.aux" "output/main.bbl" "output/main" 1651438522
+["bibtex output/main"] 1651439186 "output/main.aux" "output/main.bbl" "output/main" 1651439266
   "./acl.bst" 1651269866 25096 8925acb58483ce050fe9fbd1d1b73cdb ""
   "main-bib.bib" 1651370432 4649 96e83fa468a37363327750347ee2422e ""
-  "output/main.aux" 1651438467 503 dc118076177cd0db80512d7dd3ca2a27 "pdflatex"
+  "output/main.aux" 1651439187 503 0af204ad7e1ebc96372884990abef1fd "pdflatex"
   (generated)
-  "output/main.blg"
   "output/main.bbl"
-["pdflatex"] 1651438467 "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" "output/main.pdf" "main" 1651438522
+  "output/main.blg"
+["pdflatex"] 1651439186 "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" "output/main.pdf" "main" 1651439266
   "/etc/texmf/web2c/texmf.cnf" 1617929950 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" 1651413232 776 51adabab8f7b14e83c87d8821bb719cf ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -19,6 +19,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm" 1136768653 4408 25b74d011a4c66b7f212c0cc3c90061b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1136768653 2288 f478fc8fed18759effb59f3dad7f3084 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm" 1136768653 4640 532ca3305aad10cc01d769f3f91f1029 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -32,6 +33,8 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1136768653 520 82a3d37183f34b6eb363a161dfc002c2 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm" 1136768653 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb" 1136849748 45758 19968a0990191524e34e1994d4a31cb6 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1136849748 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1136849748 46026 6dab18b61c907687b520c72847215a68 ""
@@ -70,7 +73,7 @@
   "1-introduction.tex" 1651416002 97 fff6a8a7ddd050002294ddff4201f523 ""
   "2-related-work.tex" 1651416668 187 9ac29c1eede5322e617f045bfe16c666 ""
   "3-proposed-method.tex" 1651416668 72 907eb9f37d0a634e0d98518429e9e083 ""
-  "4-experiments-and-discussions.tex" 1651438522 2403 b75c0e25fea32f801d70a281128b272e ""
+  "4-experiments-and-discussions.tex" 1651439266 3383 6358bb732f608acff818189c305476d5 ""
   "5-conclusion.tex" 1651413765 20 b50204e17c0a475d3d65191e029fdf1d ""
   "acl2015.sty" 1651269866 13846 c31c36a598ea12cae98631b085c94453 ""
   "images/dec-lin-lin.png" 1650884938 27601 34c886d3d720977e74a0fc8983908a06 ""
@@ -83,9 +86,9 @@
   "images/static-log-lin.png" 1650881617 15598 d3a392804e046152a54d576ac65c5121 ""
   "images/static-log-log.png" 1650881628 22657 293ef98a5e1edac218727cef3d254265 ""
   "main.tex" 1651413232 776 51adabab8f7b14e83c87d8821bb719cf ""
-  "output/main.aux" 1651438467 503 dc118076177cd0db80512d7dd3ca2a27 "pdflatex"
-  "output/main.bbl" 1651438467 643 63327144b7fd1576ff8d87474d3cddc4 "bibtex output/main"
+  "output/main.aux" 1651439187 503 0af204ad7e1ebc96372884990abef1fd "pdflatex"
+  "output/main.bbl" 1651439186 643 63327144b7fd1576ff8d87474d3cddc4 "bibtex output/main"
   (generated)
-  "output/main.log"
-  "output/main.pdf"
   "output/main.aux"
+  "output/main.pdf"
+  "output/main.log"
