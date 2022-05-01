@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  1 MAY 2022 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  1 MAY 2022 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -109,32 +109,7 @@ Package: relsize 2013/03/29 ver 4.1
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count181
 \l__pdf_internal_box=\box53
-) (output/main.aux
-
-LaTeX Warning: Label `fig:fn' multiply defined.
-
-
-LaTeX Warning: Label `fig:fn' multiply defined.
-
-
-LaTeX Warning: Label `fig:fn' multiply defined.
-
-
-LaTeX Warning: Label `fig:fn' multiply defined.
-
-
-LaTeX Warning: Label `fig:fn' multiply defined.
-
-
-LaTeX Warning: Label `fig:fn' multiply defined.
-
-
-LaTeX Warning: Label `fig:fn' multiply defined.
-
-
-LaTeX Warning: Label `fig:fn' multiply defined.
-
-)
+) (output/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -189,11 +164,6 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) (./1-introduction.tex) (./2-related-work.tex) (./3-proposed-method.tex) (./4-experiments-and-discussions.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 8.
-
-Underfull \hbox (badness 1859) in paragraph at lines 9--10
-[]\OT1/ptm/m/n/10.95 Naive Thomp-son Sam-pling Agent: This
- []
-
 <./images/static-lin-lin.png, id=1, 382.42876pt x 248.93pt>
 File: ./images/static-lin-lin.png Graphic file (type png)
 <use ./images/static-lin-lin.png>
@@ -239,38 +209,33 @@ Underfull \hbox (badness 2495) in paragraph at lines 77--77
 []\OT1/ptm/m/n/10.95 Figure 7: Pro-gres-sively Worse En-vi-ron-ment.
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-
- <./images/static-lin-lin.png>]
-<./images/dec-log-lin.png, id=20, 382.42876pt x 252.945pt>
+<./images/dec-log-lin.png, id=9, 382.42876pt x 252.945pt>
 File: ./images/dec-log-lin.png Graphic file (type png)
 <use ./images/dec-log-lin.png>
 Package pdftex.def Info: ./images/dec-log-lin.png  used on input line 83.
 (pdftex.def)             Requested size: 175.26956pt x 115.92769pt.
-<./images/dec-log-log.png, id=21, 381.425pt x 252.945pt>
+<./images/dec-log-log.png, id=10, 381.425pt x 252.945pt>
 File: ./images/dec-log-log.png Graphic file (type png)
 <use ./images/dec-log-log.png>
 Package pdftex.def Info: ./images/dec-log-log.png  used on input line 90.
 (pdftex.def)             Requested size: 175.26956pt x 116.22874pt.
-) (./5-conclusion.tex) (output/main.bbl) [2 <./images/static-log-lin.png> <./images/static-log-log.png> <./images/inc-lin-lin.png> <./images/inc-log-lin.png> <./images/inc-log-log.png> <./images/dec-lin-lin.png>] [3
+) (./5-conclusion.tex) (output/main.bbl [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./images/dec-log-lin.png> <./images/dec-log-log.png>] (output/main.aux)
 
-LaTeX Warning: There were multiply-defined labels.
 
- ) 
+ <./images/static-lin-lin.png>]) [2 <./images/static-log-lin.png> <./images/static-log-log.png> <./images/inc-lin-lin.png> <./images/inc-log-lin.png> <./images/inc-log-log.png> <./images/dec-lin-lin.png>] [3
+
+ <./images/dec-log-lin.png> <./images/dec-log-log.png>] (output/main.aux) ) 
 Here is how much of TeX's memory you used:
- 2470 strings out of 483107
- 37984 string characters out of 5964630
- 278642 words of memory out of 5000000
- 17455 multiletter control sequences out of 15000+600000
+ 2478 strings out of 483107
+ 38048 string characters out of 5964630
+ 278667 words of memory out of 5000000
+ 17463 multiletter control sequences out of 15000+600000
  548753 words of font info for 57 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  30i,9n,25p,350b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on output/main.pdf (3 pages, 221339 bytes).
+Output written on output/main.pdf (3 pages, 221575 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
