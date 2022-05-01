@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex output/main"] 1651415360 "output/main.aux" "output/main.bbl" "output/main" 1651416003
+["bibtex output/main"] 1651415360 "output/main.aux" "output/main.bbl" "output/main" 1651416786
   "./acl.bst" 1651269866 25096 8925acb58483ce050fe9fbd1d1b73cdb ""
   "main-bib.bib" 1651370432 4649 96e83fa468a37363327750347ee2422e ""
-  "output/main.aux" 1651416003 269 ae52ca10b0fbbe1234ef611fa3561f54 "pdflatex"
+  "output/main.aux" 1651416786 269 ae52ca10b0fbbe1234ef611fa3561f54 "pdflatex"
   (generated)
   "output/main.blg"
   "output/main.bbl"
-["pdflatex"] 1651416003 "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" "output/main.pdf" "main" 1651416003
+["pdflatex"] 1651416786 "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" "output/main.pdf" "main" 1651416786
   "/etc/texmf/web2c/texmf.cnf" 1617929950 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" 1651413232 776 51adabab8f7b14e83c87d8821bb719cf ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -68,13 +68,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1651283101 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1651283107 4877323 f3428b59f58889d70fc061d609a856d7 ""
   "1-introduction.tex" 1651416002 97 fff6a8a7ddd050002294ddff4201f523 ""
-  "2-related-work.tex" 1651413626 48 aa0c04f3f3ea1890f2cd6898e1171c46 ""
-  "3-proposed-method.tex" 1651415134 26 6ba362b04662bc0c5fce07e1f815da8c ""
-  "4-experiments-and-discussions.tex" 1651413667 38 47e78b116069e3523e052316cc8e7b07 ""
+  "2-related-work.tex" 1651416668 187 9ac29c1eede5322e617f045bfe16c666 ""
+  "3-proposed-method.tex" 1651416668 72 907eb9f37d0a634e0d98518429e9e083 ""
+  "4-experiments-and-discussions.tex" 1651416786 287 54535c6524e5726eb0a966288cb8357d ""
   "5-conclusion.tex" 1651413765 20 b50204e17c0a475d3d65191e029fdf1d ""
   "acl2015.sty" 1651269866 13846 c31c36a598ea12cae98631b085c94453 ""
   "main.tex" 1651413232 776 51adabab8f7b14e83c87d8821bb719cf ""
-  "output/main.aux" 1651416003 269 ae52ca10b0fbbe1234ef611fa3561f54 "pdflatex"
+  "output/main.aux" 1651416786 269 ae52ca10b0fbbe1234ef611fa3561f54 "pdflatex"
   "output/main.bbl" 1651415360 643 63327144b7fd1576ff8d87474d3cddc4 "bibtex output/main"
   (generated)
   "output/main.aux"
