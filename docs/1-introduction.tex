@@ -1,9 +1,10 @@
 \begin{abstract}
-
+This work looks at the Infinite Armed Bandit setting and the problem of exploration exploitation tradeoff within this context. We propose a method called Surplus weighted Curiosity which defines how agents must explore the unseen arms. We also conduct an empirical study and evaluate eight different agents in three environments. We observe that our method Surplus weighted Curiosity performs well. 
 \end{abstract}
 
 \section{Introduction}
 
-\newcite{vish}
+The Multi Armed Bandit problem has been extensively studied in reinforcement learning. It continues to be the focus of many works in this owing to its direct and immediate use in the real word and its simplicity which leads to elegant theoretical results. Arms give rewards stochastically when pulled by an agent. It is a problem in which the agent continuously pulls an arm from a given set at each round and aims to both learn the quality parameters associated with each arm and maximize its cumulative reward over time.  
 
-\newcite{infinite} study the setting of the infinite armed bandit
+
+In this work we look at one specific variation of this setting. One where the number of arms are greater than the number of rounds available for play. We define a notion of regret called Unseen Regret that is suitable and relevant in such settings. We then propose a method of exploration called Surplus driven Curiosity which makes the agents pull new arms with probabilities weighted on how much extra reward the agent thinks it can get by playing in unseen territory. We then conduct and empirical study where we evaluate eight different agents in three environments.

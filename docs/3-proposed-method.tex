@@ -1,7 +1,13 @@
 \section{Proposed Method}
 
-\subsection{Curiosity}
-\newcite{curiosity} introduce curiosity driven exploration in the context of Q-Learning whereby they incentivize the agent to explore more by associating a small utility with every new state that the agent explores. They employ this method in the case of agents working through sparse reward environments.
+\subsection{Curiosity and Surplus}
+\newcite{curiosity} introduce curiosity driven exploration in the context of Q-Learning whereby they incentivize the agent to explore more by associating a small utility with every new state that the agent explores. They employ this method in the case of agents working through sparse reward environments. We take inspiration from this work and propose a method where the agent is curious to explore new arms based on how much extra reward it thinks it can achieve hypothetically by doing so.
 
-\subsection{Surplus}
+We call this maximum extra reward that can be hypothetically achieved as Surplus. In expectation it is the difference between the predicted quality parameters of the current known best arm within the exploration set and the quality parameter of the best arm possible among the infinite arms.
+
+\begin{definition}[Surplus Reward]
+    Surplus Reward is the difference in the quality parameters of the best arm that has been seen till now and the predicted quality parameter of the best arm that hasn't yet been pulled. $S^*_t = \mu_{\max} - \mu_{i,t}$
+\end{definition}
+
+We propose that the exploring agent must pull a new unseen arm with a probability $p = \omega.S$ where $\omega \in [0,1]$ is a parameter given by the user. A high $\omega$ would result in higher probability of new-arm exploration and a lower $\omega$ would mean lowered interest in exploring new arms.
 

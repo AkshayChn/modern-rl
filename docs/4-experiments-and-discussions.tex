@@ -4,7 +4,7 @@ We evaluate eight agents in three environments. We record the regret accumulated
 
 Among the eight agents the first two are trivial ones whose regret increases linearly with time. Every other agent is more intelligent and achieves sub-linear regret. We plot the regret vs. time graph of all agents except the first two since they are very trivial.
 
-We run each agent for 20k rounds. Each environment takes about $\sim$10 minutes to run the simulation for all eight agents.
+We run each agent for 20k rounds. Each environment takes about $\sim$10 minutes to run the simulation for all eight agents. We only focus on plotting the Unseen Regret of each arm, since we believe this is a stronger and more relevant notion of regret.
 
 \subsection{The Agents}
 
@@ -40,14 +40,14 @@ The three environments that we evaluate the agents in are as follows.
     \label{fig:u1}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\columnwidth]{static-log-lin.png}
     \caption{Uniform Environment. Log-Linear Graph}
     \label{fig:u2}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\columnwidth]{static-log-log.png}
     \caption{Uniform Environment. Log-Log Graph}
@@ -65,14 +65,14 @@ Figures 1 to 3 show the same data associated with the Uniform environment in thr
     \label{fig:i1}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\columnwidth]{inc-log-lin.png}
     \caption{Increasingly Better Environment. Log-Linear Graph}
     \label{fig:i2}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\columnwidth]{inc-log-log.png}
     \caption{Increasingly Better Environment. Log-Log Graph}
@@ -90,14 +90,14 @@ Similarly Figures 4 to 6 show regret vs. time graphs associated with the Increas
     \label{fig:d1}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\columnwidth]{dec-log-lin.png}
     \caption{Progressively Worse Environment. Log-Linear Graph}
     \label{fig:d2}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\columnwidth]{dec-log-log.png}
     \caption{Progressively Worse Environment. Log-Log Graph}

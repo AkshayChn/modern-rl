@@ -23,10 +23,11 @@ In the infinite arm setting there are two kinds of regret that can be defined, o
     Unseen Regret is the regret with respect to any best arm whether or not it is within the exploration set of the agent.
 \end{definition}
 
-It has been shown that both UCB and Thompson Sampling achieve a regret that is logarithmic in the number of rounds. One can look at \newcite{ucb} or \newcite{chat} for more theoretical results.
-
 \subsection{Exploration Methods}
 There are two well known exploration methods and various variations of them. The first one being Upper Confidence Bound and the other being Thompson Sampling. One is a deterministic approach while the latter is a randomized algorithm.
+
+It has been shown that both UCB and Thompson Sampling achieve a regret that is logarithmic in the number of rounds. One can look at \newcite{ucb} or \newcite{chat} for more theoretical results.
+
 \subsubsection{UCB}
 \newcite{ucb} first introduced the concept of using confidence bounds within the setting of Multi Armed Bandits. We have used the same in our agents. Here the agent maintains a count of how many times an arm has been pulled ($n_i$) and how many times the arm has given a reward ($s_i$). Then when the agent has to chose an arm to pull it picks the arm $i$ at round $t$ by maximizing the following expression. $i_t = \arg\max ( \frac{s_i}{n_i} + \sqrt{\frac{8\log t}{n_i} })$
 
