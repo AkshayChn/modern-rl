@@ -6,10 +6,25 @@ Aritra Chatterjee, Ganesh Ghalme, Shweta Jain, Rohit Vaish, and Y.~Narahari.
 \newblock Analysis of thompson sampling for stochastic sleeping bandits.
 \newblock In {\em UAI}.
 
+\bibitem[\protect\citename{Pathak \bgroup et al.\egroup }2017]{curiosity}
+Deepak Pathak, Pulkit Agrawal, Alexei~A. Efros, and Trevor Darrell.
+\newblock 2017.
+\newblock Curiosity-driven exploration by self-supervised prediction.
+\newblock In {\em Proceedings of the 34th International Conference on Machine
+  Learning - Volume 70}, ICML'17, page 2778–2787. JMLR.org.
+
 \bibitem[\protect\citename{Patil \bgroup et al.\egroup }2021]{vish}
 Vishakha Patil, Ganesh Ghalme, Vineet Nair, and Y.~Narahari.
 \newblock 2021.
 \newblock Achieving fairness in the stochastic multi-armed bandit problem.
 \newblock {\em Journal of Machine Learning Research}, 22(174):1--31.
+
+\bibitem[\protect\citename{Wang \bgroup et al.\egroup }2008]{infinite}
+Yizao Wang, Jean-yves Audibert, and R\'{e}mi Munos.
+\newblock 2008.
+\newblock Algorithms for infinitely many-armed bandits.
+\newblock In D.~Koller, D.~Schuurmans, Y.~Bengio, and L.~Bottou, editors, {\em
+  Advances in Neural Information Processing Systems}, volume~21. Curran
+  Associates, Inc.
 
 \end{thebibliography}

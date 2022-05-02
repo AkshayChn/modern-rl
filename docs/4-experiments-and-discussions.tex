@@ -4,6 +4,8 @@ We evaluate eight agents in three environments. We record the regret accumulated
 
 Among the eight agents the first two are trivial ones whose regret increases linearly with time. Every other agent is more intelligent and achieves sub-linear regret. We plot the regret vs. time graph of all agents except the first two since they are very trivial.
 
+We run each agent for 20k rounds. Each environment takes about $\sim$10 minutes to run the simulation for all eight agents.
+
 \subsection{The Agents}
 
 The eight agents that we focus on are as follows.
@@ -52,7 +54,7 @@ The three environments that we evaluate the agents in are as follows.
     \label{fig:u3}
 \end{figure}
 
-Figures 1 to 3 show the same data associated with the Uniform environment in three different scales. We show it as such only to highlight this relative ordering of each of the agents, since only this is important.
+Figures 1 to 3 show the same data associated with the Uniform environment in three different scales. Only the relative ordering of each of the agents is important for us and not the precise numerical value of the regret associated with each arm. Thus we show the data in three different scales to highlight the ordering. The Y axis is the regret and the X axis is the number of rounds.
 
 \subsubsection{Increasingly Better Environment}
 
