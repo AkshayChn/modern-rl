@@ -11,7 +11,19 @@ Every agent has a fixed number of rounds to play. At every round the agent is al
 \begin{definition}[Seen Regret]
 \end{definition}
 
-\subsection{UCB}
-\subsection{Thompson Sampling}
+\begin{definition}[Unseen Regret]
+    
+\end{definition}
+
+\subsection{Exploration Methods}
+There are two well known exploration methods and various variations of them. The first one being Upper Confidence Bound and the other being Thompson Sampling. One is a deterministic approach while the latter is a randomized algorithm.
+\subsubsection{UCB}
+\newcite{ucb} first introduced the concept of using confidence bounds within the setting of Multi Armed Bandits. We have used the same in our agents. Here the agent maintains a count of how many times an arm has been pulled ($n_i$) and how many times the arm has given a reward ($s_i$). Then when the agent has to chose an arm to pull it picks the arm $i$ at round $t$ by maximizing the following expression. $i_t = \arg\max ( \frac{s_i}{n_i} + \sqrt{\frac{8\log t}{n_i} })$
+
+\subsubsection{Thompson Sampling}
+Thompson Sampling is a technique where an agent maintains a Beta distribution over each arm and takes samples from those distributions $\theta_i \sim Beta(s_i + 1, n_i - s_i + 1)$. It then picks the arm with the best sample at each round $i_t \in \arg\max \theta_i$. 
+
+\newcite{kauf} showed that Thompson Sampling asymptotically achieves the same regret as UCB. However other empirical work such as \newcite{chat} and \newcite{emp} have shown empirically that it is performs much better than UCB in many cases. 
 
 \subsection{Fairness}
+\newcite{vish} have introduced the notion of $\alpha$-Fairness in the context of Multi-Armed-Bandits wherein every known arm is guaranteed to be picked a minimum number of times ($r_i$). And any deviations from this fairness guarantee happen less than $\alpha$ percent of the times. They introduce a Fair Learn meta algorithm that adds fairness constraint to any known exploration algorithm. At each round it first defines a set of arms which haven't yet been picked as many times as guaranteed. $A_t = {i | r_i \cdot (t-1) - N_i \geq \alpha}$ It then picks the arm that has been treated the most unfairly so far $i _t = \arg\max (r_i \cdot (t-1) - N_i)$. If all the known arms have been treated fairly so far then it uses the exploration algorithm to pick an arm.

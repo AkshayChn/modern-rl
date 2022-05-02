@@ -1,10 +1,32 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citename{Auer}2003]{ucb}
+Peter Auer.
+\newblock 2003.
+\newblock Using confidence bounds for exploitation-exploration trade-offs.
+\newblock {\em J. Mach. Learn. Res.}, 3(null):397–422, mar.
+
+\bibitem[\protect\citename{Chapelle and Li}2011]{emp}
+Olivier Chapelle and Lihong Li.
+\newblock 2011.
+\newblock An empirical evaluation of thompson sampling.
+\newblock In {\em Proceedings of the 24th International Conference on Neural
+  Information Processing Systems}, NIPS'11, page 2249–2257, Red Hook, NY,
+  USA. Curran Associates Inc.
+
 \bibitem[\protect\citename{Chatterjee \bgroup et al.\egroup }2017]{chat}
 Aritra Chatterjee, Ganesh Ghalme, Shweta Jain, Rohit Vaish, and Y.~Narahari.
 \newblock 2017.
 \newblock Analysis of thompson sampling for stochastic sleeping bandits.
 \newblock In {\em UAI}.
+
+\bibitem[\protect\citename{Kaufmann \bgroup et al.\egroup }2012]{kauf}
+Emilie Kaufmann, Nathaniel Korda, and R{\'e}mi Munos.
+\newblock 2012.
+\newblock Thompson sampling: An asymptotically optimal finite-time analysis.
+\newblock In Nader~H. Bshouty, Gilles Stoltz, Nicolas Vayatis, and Thomas
+  Zeugmann, editors, {\em Algorithmic Learning Theory}, pages 199--213, Berlin,
+  Heidelberg. Springer Berlin Heidelberg.
 
 \bibitem[\protect\citename{Pathak \bgroup et al.\egroup }2017]{curiosity}
 Deepak Pathak, Pulkit Agrawal, Alexei~A. Efros, and Trevor Darrell.

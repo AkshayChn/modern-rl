@@ -40,3 +40,53 @@ series = {ICML'17}
  volume = {21},
  year = {2008}
 }
+
+@article{ucb,
+author = {Auer, Peter},
+title = {Using Confidence Bounds for Exploitation-Exploration Trade-Offs},
+year = {2003},
+issue_date = {3/1/2003},
+publisher = {JMLR.org},
+volume = {3},
+number = {null},
+issn = {1532-4435},
+abstract = {We show how a standard tool from statistics --- namely confidence bounds --- can be used to elegantly deal with situations which exhibit an exploitation-exploration trade-off. Our technique for designing and analyzing algorithms for such situations is general and can be applied when an algorithm has to make exploitation-versus-exploration decisions based on uncertain information provided by a random process. We apply our technique to two models with such an exploitation-exploration trade-off. For the adversarial bandit problem with shifting our new algorithm suffers only O((ST)1/2) regret with high probability over T trials with S shifts. Such a regret bound was previously known only in expectation. The second model we consider is associative reinforcement learning with linear value functions. For this model our technique improves the regret from O(T3/4) to O(T1/2).},
+journal = {J. Mach. Learn. Res.},
+month = {mar},
+pages = {397–422},
+numpages = {26},
+keywords = {linear value function, bandit problem, online Learning, exploitation-exploration, reinforcement learning}
+}
+
+@InProceedings{kauf,
+author="Kaufmann, Emilie
+and Korda, Nathaniel
+and Munos, R{\'e}mi",
+editor="Bshouty, Nader H.
+and Stoltz, Gilles
+and Vayatis, Nicolas
+and Zeugmann, Thomas",
+title="Thompson Sampling: An Asymptotically Optimal Finite-Time Analysis",
+booktitle="Algorithmic Learning Theory",
+year="2012",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="199--213",
+abstract="The question of the optimality of Thompson Sampling for solving the stochastic multi-armed bandit problem had been open since 1933. In this paper we answer it positively for the case of Bernoulli rewards by providing the first finite-time analysis that matches the asymptotic rate given in the Lai and Robbins lower bound for the cumulative regret. The proof is accompanied by a numerical comparison with other optimal policies, experiments that have been lacking in the literature until now for the Bernoulli case.",
+isbn="978-3-642-34106-9"
+}
+
+@inproceedings{emp,
+author = {Chapelle, Olivier and Li, Lihong},
+title = {An Empirical Evaluation of Thompson Sampling},
+year = {2011},
+isbn = {9781618395993},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {Thompson sampling is one of oldest heuristic to address the exploration / exploitation trade-off, but it is surprisingly unpopular in the literature. We present here some empirical results using Thompson sampling on simulated and real data, and show that it is highly competitive. And since this heuristic is very easy to implement, we argue that it should be part of the standard baselines to compare against.},
+booktitle = {Proceedings of the 24th International Conference on Neural Information Processing Systems},
+pages = {2249–2257},
+numpages = {9},
+location = {Granada, Spain},
+series = {NIPS'11}
+}
