@@ -8,12 +8,22 @@ Every agent has a fixed number of rounds to play. At every round the agent is al
 
 \subsection{Regret}
 
+Regret (cumulative regret) is defined as the expected sum of all the differences between the actual reward and the best reward that was possible. In expectation this is the same as the difference between the quality parameter of the best arm and the arm pulled at any given round.
+
+$R(T) = E\lbrack  \sum^{T}_{t=1} \mu_{i_t^*} - \mu_{i_t}\rbrack$
+
+In the infinite arm setting there are two kinds of regret that can be defined, one with respect to the best arm that is within the exploration set at any given round, and the other with respect best arm that could have been hypothetically pulled whether or not it is in the exploration set. Thus we define two notions of regret.
+
+
 \begin{definition}[Seen Regret]
+    Seen Regret is the regret with respect to the best arm within the exploration set of the agent.
 \end{definition}
 
 \begin{definition}[Unseen Regret]
-    
+    Unseen Regret is the regret with respect to any best arm whether or not it is within the exploration set of the agent.
 \end{definition}
+
+It has been shown that both UCB and Thompson Sampling achieve a regret that is logarithmic in the number of rounds. One can look at \newcite{ucb} or \newcite{chat} for more theoretical results.
 
 \subsection{Exploration Methods}
 There are two well known exploration methods and various variations of them. The first one being Upper Confidence Bound and the other being Thompson Sampling. One is a deterministic approach while the latter is a randomized algorithm.

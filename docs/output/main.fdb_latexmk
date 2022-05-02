@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex output/main"] 1651457918 "output/main.aux" "output/main.bbl" "output/main" 1651458076
+["bibtex output/main"] 1651458934 "output/main.aux" "output/main.bbl" "output/main" 1651459006
   "./acl.bst" 1651269866 25096 8925acb58483ce050fe9fbd1d1b73cdb ""
   "main-bib.bib" 1651457339 5846 05bc1013303c01c4bc72e593e469208f ""
-  "output/main.aux" 1651457918 869 4ecb92771c6c81fceca9d430f7bfa3fd "pdflatex"
+  "output/main.aux" 1651459006 900 f1dfc15b63d1fa2e121a360eae1399a1 "pdflatex"
   (generated)
-  "output/main.bbl"
   "output/main.blg"
-["pdflatex"] 1651457918 "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" "output/main.pdf" "main" 1651458076
+  "output/main.bbl"
+["pdflatex"] 1651459005 "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" "output/main.pdf" "main" 1651459006
   "/etc/texmf/web2c/texmf.cnf" 1617929950 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" 1651450678 779 e3d354dbbfbc34803d7bb70513ffbb09 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -40,6 +40,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb" 1136849748 45758 19968a0990191524e34e1994d4a31cb6 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1136849748 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1136849748 46026 6dab18b61c907687b520c72847215a68 ""
@@ -77,7 +78,7 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1651283101 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1651283107 4877323 f3428b59f58889d70fc061d609a856d7 ""
   "1-introduction.tex" 1651453482 140 7d63c5cd67deb7aa45a3d0f3c66c25ec ""
-  "2-related-work.tex" 1651458076 3017 45cbc2114c2f01aa0931b8752d916ef3 ""
+  "2-related-work.tex" 1651459005 4109 944a4742728a70fb83282c251890829a ""
   "3-proposed-method.tex" 1651454387 379 b62cd3bf911da631e799d54854a4ef2b ""
   "4-experiments-and-discussions.tex" 1651452883 5999 45c0a594944ba3ea8c5bf7ea3bce117a ""
   "5-conclusion.tex" 1651452220 22 d7b6d94cf8c9dfe4c4467258928348ee ""
@@ -92,9 +93,9 @@
   "images/static-log-lin.png" 1650881617 15598 d3a392804e046152a54d576ac65c5121 ""
   "images/static-log-log.png" 1650881628 22657 293ef98a5e1edac218727cef3d254265 ""
   "main.tex" 1651450678 779 e3d354dbbfbc34803d7bb70513ffbb09 ""
-  "output/main.aux" 1651457918 869 4ecb92771c6c81fceca9d430f7bfa3fd "pdflatex"
-  "output/main.bbl" 1651457918 2304 1b56937368a4be1f87d3ea51334b715e "bibtex output/main"
+  "output/main.aux" 1651459006 900 f1dfc15b63d1fa2e121a360eae1399a1 "pdflatex"
+  "output/main.bbl" 1651458934 2304 1b56937368a4be1f87d3ea51334b715e "bibtex output/main"
   (generated)
   "output/main.log"
-  "output/main.pdf"
   "output/main.aux"
+  "output/main.pdf"
