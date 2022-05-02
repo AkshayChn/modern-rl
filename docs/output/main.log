@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  1 MAY 2022 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  1 MAY 2022 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -168,35 +168,34 @@ File: omspcr.fd
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
- (./1-introduction.tex) (./2-related-work.tex) (./3-proposed-method.tex) (./4-experiments-and-discussions.tex
+ (./1-introduction.tex) (./2-related-work.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 7.
-
-Underfull \hbox (badness 1845) in paragraph at lines 25--26
-\OT1/ptm/m/n/10.95 The three en-vi-ron-ments that we eval-u-ate the
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              <10.95> on input line 5.
+) (./3-proposed-method.tex) (./4-experiments-and-discussions.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
-<./images/static-lin-lin.png, id=12, 382.42876pt x 248.93pt>
+Underfull \hbox (badness 1845) in paragraph at lines 25--26
+\OT1/ptm/m/n/10.95 The three en-vi-ron-ments that we eval-u-ate the
+ []
+
+<./images/static-lin-lin.png, id=13, 382.42876pt x 248.93pt>
 File: ./images/static-lin-lin.png Graphic file (type png)
 <use ./images/static-lin-lin.png>
 Package pdftex.def Info: ./images/static-lin-lin.png  used on input line 38.
 (pdftex.def)             Requested size: 175.26956pt x 114.08755pt.
-<./images/static-log-lin.png, id=14, 382.42876pt x 252.945pt>
+<./images/static-log-lin.png, id=15, 382.42876pt x 252.945pt>
 File: ./images/static-log-lin.png Graphic file (type png)
 <use ./images/static-log-lin.png>
 Package pdftex.def Info: ./images/static-log-lin.png  used on input line 45.
 (pdftex.def)             Requested size: 175.26956pt x 115.92769pt.
-<./images/static-log-log.png, id=15, 381.425pt x 252.945pt>
+<./images/static-log-log.png, id=16, 381.425pt x 252.945pt>
 File: ./images/static-log-log.png Graphic file (type png)
 <use ./images/static-log-log.png>
 Package pdftex.def Info: ./images/static-log-log.png  used on input line 52.
 (pdftex.def)             Requested size: 175.26956pt x 116.22874pt.
-<./images/inc-lin-lin.png, id=16, 382.42876pt x 248.93pt>
+<./images/inc-lin-lin.png, id=17, 382.42876pt x 248.93pt>
 File: ./images/inc-lin-lin.png Graphic file (type png)
 <use ./images/inc-lin-lin.png>
 Package pdftex.def Info: ./images/inc-lin-lin.png  used on input line 63.
@@ -206,17 +205,17 @@ Underfull \hbox (badness 4872) in paragraph at lines 64--64
 []\OT1/ptm/m/n/10.95 Figure 4: In-creas-ingly Bet-ter En-vi-ron-ment.
  []
 
-<./images/inc-log-lin.png, id=17, 382.42876pt x 252.945pt>
+<./images/inc-log-lin.png, id=18, 382.42876pt x 252.945pt>
 File: ./images/inc-log-lin.png Graphic file (type png)
 <use ./images/inc-log-lin.png>
 Package pdftex.def Info: ./images/inc-log-lin.png  used on input line 70.
 (pdftex.def)             Requested size: 175.26956pt x 115.92769pt.
-<./images/inc-log-log.png, id=18, 381.425pt x 252.945pt>
+<./images/inc-log-log.png, id=19, 381.425pt x 252.945pt>
 File: ./images/inc-log-log.png Graphic file (type png)
 <use ./images/inc-log-log.png>
 Package pdftex.def Info: ./images/inc-log-log.png  used on input line 77.
 (pdftex.def)             Requested size: 175.26956pt x 116.22874pt.
-<./images/dec-lin-lin.png, id=19, 382.42876pt x 248.93pt>
+<./images/dec-lin-lin.png, id=20, 382.42876pt x 248.93pt>
 File: ./images/dec-lin-lin.png Graphic file (type png)
 <use ./images/dec-lin-lin.png>
 Package pdftex.def Info: ./images/dec-lin-lin.png  used on input line 88.
@@ -226,12 +225,12 @@ Underfull \hbox (badness 2495) in paragraph at lines 89--89
 []\OT1/ptm/m/n/10.95 Figure 7: Pro-gres-sively Worse En-vi-ron-ment.
  []
 
-<./images/dec-log-lin.png, id=20, 382.42876pt x 252.945pt>
+<./images/dec-log-lin.png, id=21, 382.42876pt x 252.945pt>
 File: ./images/dec-log-lin.png Graphic file (type png)
 <use ./images/dec-log-lin.png>
 Package pdftex.def Info: ./images/dec-log-lin.png  used on input line 95.
 (pdftex.def)             Requested size: 175.26956pt x 115.92769pt.
-<./images/dec-log-log.png, id=21, 381.425pt x 252.945pt>
+<./images/dec-log-log.png, id=22, 381.425pt x 252.945pt>
 File: ./images/dec-log-log.png Graphic file (type png)
 <use ./images/dec-log-log.png>
 Package pdftex.def Info: ./images/dec-log-log.png  used on input line 102.
@@ -241,23 +240,22 @@ Underfull \hbox (badness 2343) in paragraph at lines 110--111
 \OT1/ptm/m/n/10.95 We ob-serve the fol-low-ing trends from these
  []
 
-) (./5-conclusion.tex) (output/main.bbl
-Underfull \vbox (badness 1603) has occurred while \output is active []
+[2 <./images/static-lin-lin.png> <./images/static-log-lin.png>]) (./5-conclusion.tex) (output/main.bbl) [3 <./images/static-log-log.png> <./images/inc-lin-lin.png> <./images/inc-log-lin.png> <./images/inc-log-log.png> <./images/dec-lin-lin.png> <./images/dec-log-lin.png>] [4
 
- [2 <./images/static-lin-lin.png> <./images/static-log-lin.png> <./images/static-log-log.png>]) [3 <./images/inc-lin-lin.png> <./images/inc-log-lin.png> <./images/inc-log-log.png> <./images/dec-lin-lin.png> <./images/dec-log-lin.png> <./images/dec-log-log.png>] (output/main.aux) ) 
+ <./images/dec-log-log.png>] (output/main.aux) ) 
 Here is how much of TeX's memory you used:
- 2499 strings out of 483107
- 38391 string characters out of 5964630
- 278714 words of memory out of 5000000
- 17481 multiletter control sequences out of 15000+600000
- 548753 words of font info for 57 fonts, out of 8000000 for 9000
+ 2500 strings out of 483107
+ 38409 string characters out of 5964630
+ 279714 words of memory out of 5000000
+ 17482 multiletter control sequences out of 15000+600000
+ 549301 words of font info for 58 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  30i,9n,25p,504b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on output/main.pdf (3 pages, 237452 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on output/main.pdf (4 pages, 245920 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
