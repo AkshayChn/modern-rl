@@ -4,13 +4,11 @@
 
 The infinite multi armed bandit problem consists of an infinite number of arms each with a quality parameter $\mu_i$ and every time they are pulled by an agent, they give a reward of $0$ or $1$ which is sampled from a Bernoulli distribution with the quality parameter as the mean. The agent that pulls the arm does not know the quality parameter of the arms before hand.
 
-Every agent has a fixed number of rounds to play. At every round the agent is allowed to pull an arm that it has already pulled before or a new arm from the set of infinite arms. As each agent goes on pulling the arms, it goes on collecting rewards while simultaneously learning the qualities of each of the arms it has pulled.
+Every agent has a fixed number of rounds ($T$) to play. At every round the agent is allowed to pull an arm that it has already pulled before or a new arm from the set of infinite arms. As each agent goes on pulling the arms, it goes on collecting rewards while simultaneously learning the qualities of each of the arms it has pulled.
 
 \subsection{Regret}
 
-Regret (cumulative regret) is defined as the expected sum of all the differences between the actual reward and the best reward that was possible. In expectation this is the same as the difference between the quality parameter of the best arm and the arm pulled at any given round.
-
-$R(T) = E\lbrack  \sum^{T}_{t=1} \mu_{i_t^*} - \mu_{i_t}\rbrack$
+Regret (also known as cumulative regret) is defined as the expected sum, over all the rounds, of differences between the actual reward and the best reward that was possible. In expectation this is the same as the difference between the quality parameter of the best arm and the arm pulled at any given round. $R(T) = E\lbrack  \sum^{T}_{t=1} \mu_{i_t^*} - \mu_{i_t}\rbrack$
 
 In the infinite arm setting there are two kinds of regret that can be defined, one with respect to the best arm that is within the exploration set at any given round, and the other with respect best arm that could have been hypothetically pulled whether or not it is in the exploration set. Thus we define two notions of regret.
 
@@ -24,9 +22,9 @@ In the infinite arm setting there are two kinds of regret that can be defined, o
 \end{definition}
 
 \subsection{Exploration Methods}
-There are two well known exploration methods and various variations of them. The first one being Upper Confidence Bound and the other being Thompson Sampling. One is a deterministic approach while the latter is a randomized algorithm.
+There are two well known exploration methods and most works in this field are some variations of them. The first one being Upper Confidence Bound and the other being Thompson Sampling. One is a deterministic approach while the latter is a randomized algorithm.
 
-It has been shown that both UCB and Thompson Sampling achieve a regret that is logarithmic in the number of rounds. One can look at \newcite{ucb} or \newcite{chat} for more theoretical results.
+It has been shown that both UCB and Thompson Sampling achieve a regret that is logarithmic in the number of rounds. One can look at \newcite{ucb} or \newcite{chat} for such theoretical results.
 
 \subsubsection{UCB}
 \newcite{ucb} first introduced the concept of using confidence bounds within the setting of Multi Armed Bandits. We have used the same in our agents. Here the agent maintains a count of how many times an arm has been pulled ($n_i$) and how many times the arm has given a reward ($s_i$). Then when the agent has to chose an arm to pull it picks the arm $i$ at round $t$ by maximizing the following expression. $i_t = \arg\max ( \frac{s_i}{n_i} + \sqrt{\frac{8\log t}{n_i} })$
@@ -37,4 +35,4 @@ Thompson Sampling is a technique where an agent maintains a Beta distribution ov
 \newcite{kauf} showed that Thompson Sampling asymptotically achieves the same regret as UCB. However other empirical work such as \newcite{chat} and \newcite{emp} have shown empirically that it is performs much better than UCB in many cases. 
 
 \subsection{Fairness}
-\newcite{vish} have introduced the notion of $\alpha$-Fairness in the context of Multi-Armed-Bandits wherein every known arm is guaranteed to be picked a minimum number of times ($r_i$). And any deviations from this fairness guarantee happen less than $\alpha$ percent of the times. They introduce a Fair Learn meta algorithm that adds fairness constraint to any known exploration algorithm. At each round it first defines a set of arms which haven't yet been picked as many times as guaranteed. $A_t = {i | r_i \cdot (t-1) - N_i \geq \alpha}$ It then picks the arm that has been treated the most unfairly so far $i _t = \arg\max (r_i \cdot (t-1) - N_i)$. If all the known arms have been treated fairly so far then it uses the exploration algorithm to pick an arm.
+\newcite{vish} have introduced the notion of $\alpha$-Fairness in the context of Multi-Armed-Bandits wherein every known arm is guaranteed to be picked a minimum number of times ($r_i$). And any deviations from this fairness guarantee happen less than $\alpha$ percent of the times. They introduce a Fair Learn meta algorithm that adds fairness constraint to any known exploration algorithm. At each round it first defines a set of arms which haven't yet been picked as many times as guaranteed. $A_t = \{i | r_i \cdot (t-1) - N_i \geq \alpha\}$ It then picks the arm that has been treated the most unfairly so far $i _t = \arg\max (r_i \cdot (t-1) - N_i)$. If all the known arms have been treated fairly so far then it uses the exploration algorithm to pick an arm.

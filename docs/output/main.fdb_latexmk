@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex output/main"] 1651461488 "output/main.aux" "output/main.bbl" "output/main" 1651461534
+["bibtex output/main"] 1651461488 "output/main.aux" "output/main.bbl" "output/main" 1651462753
   "./acl.bst" 1651269866 25096 8925acb58483ce050fe9fbd1d1b73cdb ""
   "main-bib.bib" 1651457339 5846 05bc1013303c01c4bc72e593e469208f ""
-  "output/main.aux" 1651461501 800 e43ad7d11ab4fccd83b598639bdec841 "pdflatex"
+  "output/main.aux" 1651462733 800 e43ad7d11ab4fccd83b598639bdec841 "pdflatex"
   (generated)
-  "output/main.bbl"
   "output/main.blg"
-["pdflatex"] 1651461501 "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" "output/main.pdf" "main" 1651461534
+  "output/main.bbl"
+["pdflatex"] 1651462733 "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" "output/main.pdf" "main" 1651462753
   "/etc/texmf/web2c/texmf.cnf" 1617929950 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/axyc/Downloads/RL-project/modern-rl/docs/main.tex" 1651450678 779 e3d354dbbfbc34803d7bb70513ffbb09 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -78,10 +78,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1651283101 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1651283107 4877323 f3428b59f58889d70fc061d609a856d7 ""
-  "1-introduction.tex" 1651461533 1554 631b5f13d5383675b48e7c8391db95d4 ""
-  "2-related-work.tex" 1651459363 4110 d00e51855fe66a864aae9152eecf5c88 ""
-  "3-proposed-method.tex" 1651460152 1426 44f3f60c9f70c179fe5f7ca343521b9e ""
-  "4-experiments-and-discussions.tex" 1651460761 6128 f5209ec9f6612674259af171a28abd4c ""
+  "1-introduction.tex" 1651461785 1610 f5ccc8f701462de123731096681235a1 ""
+  "2-related-work.tex" 1651462215 4171 fd00244b29d76981a48d18b3f479d026 ""
+  "3-proposed-method.tex" 1651462300 1430 3a7d904311424eab26f13bee1b11d9a0 ""
+  "4-experiments-and-discussions.tex" 1651462753 6076 5179291379918c6e926cdb8ee77d289f ""
   "5-conclusion.tex" 1651460827 602 f72d5f4b364994c28242e7cd4dad584b ""
   "acl2015.sty" 1651269866 13846 c31c36a598ea12cae98631b085c94453 ""
   "images/dec-lin-lin.png" 1650884938 27601 34c886d3d720977e74a0fc8983908a06 ""
@@ -94,9 +94,9 @@
   "images/static-log-lin.png" 1650881617 15598 d3a392804e046152a54d576ac65c5121 ""
   "images/static-log-log.png" 1650881628 22657 293ef98a5e1edac218727cef3d254265 ""
   "main.tex" 1651450678 779 e3d354dbbfbc34803d7bb70513ffbb09 ""
-  "output/main.aux" 1651461501 800 e43ad7d11ab4fccd83b598639bdec841 "pdflatex"
+  "output/main.aux" 1651462733 800 e43ad7d11ab4fccd83b598639bdec841 "pdflatex"
   "output/main.bbl" 1651461488 1938 34e1142eff1af0b406ff669dbe208922 "bibtex output/main"
   (generated)
+  "output/main.aux"
   "output/main.pdf"
   "output/main.log"
-  "output/main.aux"
